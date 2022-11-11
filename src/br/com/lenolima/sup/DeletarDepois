@@ -1,0 +1,25 @@
+
+#interfaces funcionais
+#interface com somente um metodo / funcao abstrato.
+#-----------------------------------------------------
+public void interface Calculo{
+    double executar(double a, double a);
+}
+
+Calculo soma = (x,y) -> {
+    return x + y;
+};
+
+soma = (x,y) -> x * y ;
+
+List<Integer> novaLista = lista.stream()
+.filter....
+.collect(Collectors.toList());
+
+
+
+
+
+#BinaryOperator
+BinaryOperator<Double> calc = (x,y) -> {return x + y};
+calc.apply(2,3);
